@@ -42,3 +42,20 @@ body {
   border-radius: 20px;
   display: block;
 }
+
+@media (max-width: 767px) {
+  .hero__container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero__image {
+    margin-top: 20px;
+  }
+
+  .hero__image img {
+    width: 100%;
+    max-width: 280px;
+    height: 280px;
+  }
+}
