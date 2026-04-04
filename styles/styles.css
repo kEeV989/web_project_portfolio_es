@@ -16,6 +16,19 @@ body {
   font-family: "OpenSans", sans-serif;
   background-color: #0f0f1a;
   color: white;
+
+  background:
+    radial-gradient(
+      circle at calc(50% - 400px) 200px,
+      rgba(109, 109, 255, 0.25),
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at calc(50% + 400px) 100px,
+      rgba(255, 0, 150, 0.2),
+      transparent 40%
+    ),
+    #0f0f1a;
 }
 
 .hero {
