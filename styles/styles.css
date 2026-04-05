@@ -102,10 +102,11 @@ body {
   margin: 0 auto;
 }
 
-.projects__titile {
+.projects__title {
   font-family: "ArchivoBlack", sans-serif;
-  font-size: 46px;
+  font-size: 36px;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .projects__grid {
@@ -241,6 +242,7 @@ body {
 }
 
 .skills__title {
+  font-family: "ArchivoBlack", sans-serif;
   font-size: 36px;
   margin-bottom: 40px;
   text-align: center;
